@@ -5,7 +5,7 @@ import {Badge} from 'react-daisyui'
 const WhyChUs = () => {
   return (
     <div className='flex flex-col items-center justify-center m-40'>
-            <Badge className='px-4 py-3 font-semibold text-gray-400 badge-ghost'>Why Choose Us</Badge>
+            <Badge className='px-4 py-3 font-semibold text-gray-400 bg-cyan-100 border-none'>Why Choose Us</Badge>
             <Hero>
                 <Hero.Overlay className="bg-opacity-0" />
                 <Hero.Content className="text-center">

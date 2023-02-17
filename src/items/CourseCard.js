@@ -2,7 +2,7 @@ import React from 'react'
 
 const CourseCard = (props) => {
   return (
-    <div className="card bg-base-100 shadow-xl">
+    <div className="card bg-base-100 shadow-xl transition hover:scale-105">
         <figure><img src={props.img} alt="Shoes" /></figure>
         <div className="card-body">
             <h2 className="card-title">Shoes!</h2>

@@ -9,7 +9,7 @@ import lang3 from './img/language-03.jpg'
 const LandingCourses = () => {
   return (
     <div className='flex flex-col items-center justify-center'>
-        <Badge className='px-4 py-3 font-semibold text-gray-400 badge-ghost'>OUR COURSES</Badge>
+        <Badge className='px-4 py-3 font-semibold text-gray-400 bg-cyan-100 border-none'>OUR COURSES</Badge>
         <Hero>
             <Hero.Overlay className="bg-opacity-0" />
             <Hero.Content className="text-center">
