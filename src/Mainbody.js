@@ -11,6 +11,8 @@ import {
   Route
 } from 'react-router-dom'
 import Signup from './items/Signup'
+import Courses from './items/Courses'
+import Learning from './items/Learning'
 
 const Mainbody = () => {
   return (
@@ -37,6 +39,17 @@ const Mainbody = () => {
           <Signup/>
           </>
         }/>
+        <Route path='/courses' element={
+          <>
+          <Courses/>
+          </>
+        }/>
+        <Route path='/learn' element={
+          <>
+          <Learning/>
+          </>
+        }/>
+        
         
       </Routes>
       <Footer/>

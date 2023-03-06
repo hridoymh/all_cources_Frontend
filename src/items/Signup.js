@@ -19,9 +19,9 @@ const Signup = () => {
                 </div>
                 <div className="form-control">
                 <label className="label">
-                    <span className="label-text">User Name</span>
+                    <span className="label-text">Full Name</span>
                 </label>
-                <input type="text" placeholder="UserName" className="input input-bordered" />
+                <input type="text" placeholder="Full Name" className="input input-bordered" />
                 </div>
                 
                 <div className="form-control">
