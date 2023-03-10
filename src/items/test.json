@@ -1,0 +1,481 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "1dl3BQQB-lHsAn_bRqz5ZSMoQ-w",
+    "nextPageToken": "EAAaBlBUOkNBbw",
+    "items": [
+      {
+        "kind": "youtube#playlistItem",
+        "etag": "3BWwhgeAUteodAC6Bc0t8ggJFR4",
+        "id": "UExCMDNFQTk1NDVERDE4OEMzLkU0NTVFQTE0ODRGODg4RkI",
+        "snippet": {
+          "publishedAt": "2011-05-24T23:59:40Z",
+          "channelId": "UCHALE0WtcSB1E0dt7IaGqWA",
+          "title": "Learn Android Tutorial 1.1 - Installing Eclipse ADT and android SDK",
+          "description": "This lesson will get you up and running, and even if you are an absolute beginner, you can do it.  Please subscribe and thumbs up the video and you will be a pro in no time\n\nDownload links:\nEclipse: http://www.eclipse.org/downloads/\nAndroid SDK: http://developer.android.com/sdk/index.html\nAndroid ADT: http://developer.android.com/sdk/eclipse-adt.html\n\nAdditional help link: http://developer.android.com/sdk/installing.html\n\nIn this lesson you will learn:\n\n-Installing Eclipse\n-Set up the link to the ADT\n-Setting up the SDK and different android platforms\n-Setting up the AVD\n\n\nThis video is the first in a web series that I am creating to help you learn Android programming so you can create apps and eventually how to learn to write games for android phones.  I want to explain things in a way that everyone can understand, even if you have no experience with Java, XML, C, OpenGL, or as a matter of fact, any other programming language.   \n\nIf you do have a lot of experience with programming, these first videos will be really slow for you, but my goal is to get everyone sprinting, but for now we have learn to crawl.\n\nfollow me on twitter: /mybringback\nblog URL: http://bit.ly/SGUZWg .\n\nVisit Our Friends @ Stone River E-Learning for Additional Tutorials - http://bit.ly/1fjsXTn\n\nCoupon 20% Off HTML & CSS for Beginners - http://bit.ly/1MmuYfw",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/CxPh1tgiK2g/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/CxPh1tgiK2g/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/CxPh1tgiK2g/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/CxPh1tgiK2g/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/CxPh1tgiK2g/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "mybringback",
+          "playlistId": "PLB03EA9545DD188C3",
+          "position": 0,
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "CxPh1tgiK2g"
+          },
+          "videoOwnerChannelTitle": "mybringback",
+          "videoOwnerChannelId": "UCHALE0WtcSB1E0dt7IaGqWA"
+        }
+      },
+      {
+        "kind": "youtube#playlistItem",
+        "etag": "8iwM2gjsKo9i8CTWwVqpPkoCUu0",
+        "id": "UExCMDNFQTk1NDVERDE4OEMzLjEyMzk4Q0Y2RDE0NjQxRjM",
+        "snippet": {
+          "publishedAt": "2011-05-24T23:59:49Z",
+          "channelId": "UCHALE0WtcSB1E0dt7IaGqWA",
+          "title": "Learn Android Tutorial 1.2- Setting up a Project and Explaining how to import an Image",
+          "description": "In this lesson you will learn:\n-How to set an Android Project in Eclipse\n-Understand the basic layout of the project, such as the folders\n-How to add a picture to the project that we will later use as a background\n\nWhat's up my peepz?  (who says peepz anymore?)  This lesson will get you up and running, and even an absolute beginner can do it.  Sorry I still have that nasty cold, so please forgive my sniffing noises, my strange nasally voice, and other distractions. Please subscribe and thumbs up the video and you will be a pro in no time\n\nIn this lesson you will learn:\n-How to set an Android Project in Eclipse\n-Understand the basic layout of the project, such as the folders\n-How to add a picture to the project that we will later use as a background\n\n\nThis video is the 4 in a web series that I am creating to help you learn Android programming so you can create apps and eventually how to learn to write games for android phones.  I want to explain things in a way that everyone can understand, even if you have no experience with Java, XML, C, OpenGL, or as a matter of fact, any other programming language.   \n\nIf you do have a lot of experience with programming, these first videos will be really slow for you, but my goal is to get everyone sprinting, but for now we have learn to crawl.\n\nLearn more in the blog post: http://bit.ly/12rcHIG .\n\nVisit Our Friends @ Stone River E-Learning for Additional Tutorials - http://bit.ly/1fjsXTn\n\nCoupon 20% Off HTML & CSS for Beginners - http://bit.ly/1MmuYfw",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/xOYPv7CxMVk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/xOYPv7CxMVk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/xOYPv7CxMVk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/xOYPv7CxMVk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/xOYPv7CxMVk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "mybringback",
+          "playlistId": "PLB03EA9545DD188C3",
+          "position": 1,
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "xOYPv7CxMVk"
+          },
+          "videoOwnerChannelTitle": "mybringback",
+          "videoOwnerChannelId": "UCHALE0WtcSB1E0dt7IaGqWA"
+        }
+      },
+      {
+        "kind": "youtube#playlistItem",
+        "etag": "GomixPGyAmb6SqQ3cl-017-J73c",
+        "id": "UExCMDNFQTk1NDVERDE4OEMzLkMyQThEQzRFMUZDNjNBRkI",
+        "snippet": {
+          "publishedAt": "2011-05-25T00:00:00Z",
+          "channelId": "UCHALE0WtcSB1E0dt7IaGqWA",
+          "title": "Learn Android Tutorial 1.3- Intro to XML and Custom Layouts",
+          "description": "In this lesson you will learn:\n-Fix the error within the project\n-clean project\n-start the Android emulator \n-Start learning XML to create layouts (learn the TextView coding)\n-Learn about referencing strings in resources folder\n\nWhat's up my peepz?  (who says peepz anymore?)  This lesson will get you up and running, and even an absolute beginner can do it.  Please subscribe and thumbs up the video and you will be a pro in no time\n\n\n\nThis video is the 3 in a web series that I am creating to help you learn Android programming so you can create apps and eventually how to learn to write games for android applications.  I want to explain things in a way that everyone can understand, even if you have no experience with Java, XML, C, OpenGL, or as a matter of fact, any other programming language.   \n\nIf you do have a lot of experience with programming, these first videos will be really slow for you, but my goal is to get everyone sprinting, but for now we have learn to crawl.\n\nfollow me on twitter: mybringback\n\nLearn more in the blog post: http://bit.ly/14sGo6J .\n\nVisit Our Friends @ Stone River E-Learning for Additional Tutorials - http://bit.ly/1fjsXTn\n\nCoupon 20% Off HTML & CSS for Beginners - http://bit.ly/1MmuYfw",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/kKC7-ACrs1w/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/kKC7-ACrs1w/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/kKC7-ACrs1w/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/kKC7-ACrs1w/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/kKC7-ACrs1w/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "mybringback",
+          "playlistId": "PLB03EA9545DD188C3",
+          "position": 2,
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "kKC7-ACrs1w"
+          },
+          "videoOwnerChannelTitle": "mybringback",
+          "videoOwnerChannelId": "UCHALE0WtcSB1E0dt7IaGqWA"
+        }
+      },
+      {
+        "kind": "youtube#playlistItem",
+        "etag": "fL-A8m6Nv72zmv60EFgJ-lXzfTE",
+        "id": "UExCMDNFQTk1NDVERDE4OEMzLjgxMUY5RTVEMUY2QjBCNEI",
+        "snippet": {
+          "publishedAt": "2011-05-25T00:00:13Z",
+          "channelId": "UCHALE0WtcSB1E0dt7IaGqWA",
+          "title": "Learn Android Tutorial 1.4- XML programming & background image",
+          "description": "In this lesson you will learn:\n-A better understanding of XML\n-Adding a Button\n-Find coding that even when we don't remember the exact coding\n-Basics of the Linear Layout\n-New XML functions\n-Adding our picture to the background of our app\n-Running our program on the emulator\n\nThis video is the 4 in a web series that I am creating to help you learn Android programming so you can create apps and eventually how to learn to write games for android phones.  I want to explain things in a way that everyone can understand, even if you have no experience with Java, XML, C, OpenGL, or as a matter of fact, any other programming language.   \n\nIf you do have a lot of experience with programming, these first videos will be really slow for you, but my goal is to get everyone sprinting, but for now we have learn to crawl.\n\nfollow me on twitter: mybringback\n\nLearn more in the blog post: http://bit.ly/11iNb1Q .\n\nVisit Our Friends @ Stone River E-Learning for Additional Tutorials - http://bit.ly/1fjsXTn\n\nCoupon 20% Off HTML & CSS for Beginners - http://bit.ly/1MmuYfw",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/qE2EuZZCMYE/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/qE2EuZZCMYE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/qE2EuZZCMYE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/qE2EuZZCMYE/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/qE2EuZZCMYE/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "mybringback",
+          "playlistId": "PLB03EA9545DD188C3",
+          "position": 3,
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "qE2EuZZCMYE"
+          },
+          "videoOwnerChannelTitle": "mybringback",
+          "videoOwnerChannelId": "UCHALE0WtcSB1E0dt7IaGqWA"
+        }
+      },
+      {
+        "kind": "youtube#playlistItem",
+        "etag": "T8X6TbUKvWFONpwcpdGwlsxKTbc",
+        "id": "UExCMDNFQTk1NDVERDE4OEMzLjQxQUJGN0E3MTEyQkRGNDQ",
+        "snippet": {
+          "publishedAt": "2011-05-25T00:00:24Z",
+          "channelId": "UCHALE0WtcSB1E0dt7IaGqWA",
+          "title": "Learn Android Tutorial 1.5- XML made Simple & Java Intro",
+          "description": "In this Android tutorial you will learn:\n-XML, the Easy way, using the Graphical Layout\n-Accessing Properties Tab (and other tabs) in Eclipse\n-Making a Button\n-Introduction to the id reference in Java\n-New XML functions\n-Introduction/Review of how the Manifest calls the Java activity which calls the XML layout\n-Create a new XML layout\n-HOMEWORK: create 3 different icons and place them in the appropriate folders ( create one icon 150x150px for the high density folder, one 75x75 for medium, and one 35x35 for the low density folder)\n\nThis video is the 5 in a web series that I am creating to help you learn Android programming so you can create apps and eventually how to learn to write games for android phones.  I want to explain things in a way that everyone can understand, even if you have no experience with Java, XML, C, OpenGL, or as a matter of fact, any other programming language.   \n\nIf you do have a lot of experience with programming, these first videos will be really slow for you, but my goal is to get everyone sprinting, but for now we have learn to crawl.\n\nfollow me on twitter:  mybringback\n\nLearn more in the blog post found here: http://bit.ly/18Lz0HR .\n\nVisit Our Friends @ Stone River E-Learning for Additional Tutorials - http://bit.ly/1fjsXTn\n\nCoupon 20% Off HTML & CSS for Beginners - http://bit.ly/1MmuYfw",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/7YGLOg-S--M/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/7YGLOg-S--M/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/7YGLOg-S--M/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/7YGLOg-S--M/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/7YGLOg-S--M/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "mybringback",
+          "playlistId": "PLB03EA9545DD188C3",
+          "position": 4,
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "7YGLOg-S--M"
+          },
+          "videoOwnerChannelTitle": "mybringback",
+          "videoOwnerChannelId": "UCHALE0WtcSB1E0dt7IaGqWA"
+        }
+      },
+      {
+        "kind": "youtube#playlistItem",
+        "etag": "F9UxDvFQGJIq_7bBlzo0KhSo6mU",
+        "id": "UExCMDNFQTk1NDVERDE4OEMzLkYwQTQxNDE3OUVBNzdFNTA",
+        "snippet": {
+          "publishedAt": "2011-05-25T00:00:35Z",
+          "channelId": "UCHALE0WtcSB1E0dt7IaGqWA",
+          "title": "Learn Android Tutorial 1.6- Introduction to Java & Raw folder",
+          "description": "I listed what we will be going over in this lesson below, if you know java you may want to just setup the stuff listed below.  Because after we set those items up, I will just be quickly going over some java code, and briefly describing what it means.   If you are a beginner, you will most likely be confused by the end of this lesson, but I promise you will understand after watching the next few lessons, so, please don't be discouraged if you don't completely understand everything mentioned in this tutorial.  Just know that it is hard to describe everything in depth within 10 minutes.  Thanks again for watching\n\nSupported files:\nhttp://developer.android.com/guide/appendix/media-formats.html\n\nWhats up Bringers, thanks for watching my videos, i would love it if you subscribe and give me some feedback.\n\nName                    Range\nlong                  -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807\nint                   --2,147,483,648 to 2,147,483,647\nshort                  -- 32,768 to 32,767\n\n\n\nFirst \n\nIn this lesson you will:\n-add to the splash.xml layout\n-add another picture to the drawable folder that will be our splash screen.\n-add the resource folder \"raw\" and add a audio clip to it. (.mp3)\n-create a new activity/ new Java class called myMenu\n-get a very brief understanding of the Java\n-Be introduced to creating variables\n\n\nThis video is the 6th in a web series that I am creating to help you learn Android programming so you can create apps and eventually how to learn to write games for android phones.  I want to explain things in a way that everyone can understand, even if you have no experience with Java, XML, C, OpenGL, or as a matter of fact, any other programming language.   \n\nIf you do have a lot of experience with programming, these first videos will be really slow for you, but my goal is to get everyone sprinting, but for now we have learn to crawl.\n\nfollow me on twitter: mybringback\n\nLearn more in the blog post here: http://bit.ly/17lNyA8 .\n\nVisit Our Friends @ Stone River E-Learning for Additional Tutorials - http://bit.ly/1fjsXTn\n\nCoupon 20% Off HTML & CSS for Beginners - http://bit.ly/1MmuYfw",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/C6_TGPOPiOU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/C6_TGPOPiOU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/C6_TGPOPiOU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/C6_TGPOPiOU/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/C6_TGPOPiOU/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "mybringback",
+          "playlistId": "PLB03EA9545DD188C3",
+          "position": 5,
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "C6_TGPOPiOU"
+          },
+          "videoOwnerChannelTitle": "mybringback",
+          "videoOwnerChannelId": "UCHALE0WtcSB1E0dt7IaGqWA"
+        }
+      },
+      {
+        "kind": "youtube#playlistItem",
+        "etag": "heJ0e132jhd2PO2iHMz-4VES46U",
+        "id": "UExCMDNFQTk1NDVERDE4OEMzLjNFQkZGQzJDMEEzRTJCRDU",
+        "snippet": {
+          "publishedAt": "2011-05-25T06:39:03Z",
+          "channelId": "UCHALE0WtcSB1E0dt7IaGqWA",
+          "title": "Learn Android Tutorial 1.7- Setting up our Splash Activity",
+          "description": "In this Android tutorial you will:\n-Learn about Activities, and how add the proper layout for an Activity\n-Start typing some Java.\n-Create a new class \n-Learn a little about Threads, and how start creating a Thread variable\n\n\nThis video is the 6th in a web series that I am creating to help you learn Android programming so you can create apps and eventually how to learn to write games for android phones.  I want to explain things in a way that everyone can understand, even if you have no experience with Java, XML, C, OpenGL, or as a matter of fact, any other programming language.   \n\nIf you do have a lot of experience with programming, these first videos will be really slow for you, but my goal is to get everyone sprinting, but for now we have learn to crawl.\n\nGet the source code an more information in our blog post for this tutorial: http://bit.ly/16H1Wnj .\n\nVisit Our Friends @ Stone River E-Learning for Additional Tutorials - http://bit.ly/1fjsXTn\n\nCoupon 20% Off HTML & CSS for Beginners - http://bit.ly/1MmuYfw",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/sWOXbDYwIXo/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/sWOXbDYwIXo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/sWOXbDYwIXo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/sWOXbDYwIXo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/sWOXbDYwIXo/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "mybringback",
+          "playlistId": "PLB03EA9545DD188C3",
+          "position": 6,
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "sWOXbDYwIXo"
+          },
+          "videoOwnerChannelTitle": "mybringback",
+          "videoOwnerChannelId": "UCHALE0WtcSB1E0dt7IaGqWA"
+        }
+      },
+      {
+        "kind": "youtube#playlistItem",
+        "etag": "jWbwp3lTUBpJ0vbeuT3CxlHpO6c",
+        "id": "UExCMDNFQTk1NDVERDE4OEMzLkRBOTAwMjUxNDU5REM1RjQ",
+        "snippet": {
+          "publishedAt": "2011-05-25T06:39:13Z",
+          "channelId": "UCHALE0WtcSB1E0dt7IaGqWA",
+          "title": "Learn Android Tutorial 1.8- Intro to Threads (Finish Splash Activity)",
+          "description": "In this lesson you will:\n-Finish our thread\n-Get our splash screen up and running\n-Learn about Threads the methods they can include\n-Correct some mistakes\n-Set up a new activity in the Android Manifest\n-Set up the onCreate method for our myMenu class\n\n\nThis video is the 8th in a web series that I am creating to help you learn Android programming so you can create apps and eventually how to learn to write games for android phones.  I want to explain things in a way that everyone can understand, even if you have no experience with Java, XML, C, OpenGL, or as a matter of fact, any other programming language.   \n\nIf you do have a lot of experience with programming, these first videos will be really slow for you, but my goal is to get everyone sprinting, but for now we have learn to crawl.\n\nFollow me on twitter @mybringback\n\nGet the source code and more information in our blog post about this tutorial: http://bit.ly/11VBLpG .\n\nVisit Our Friends @ Stone River E-Learning for Additional Tutorials - http://bit.ly/1fjsXTn\n\nCoupon 20% Off HTML & CSS for Beginners - http://bit.ly/1MmuYfw",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/P4PqZKmQjjs/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/P4PqZKmQjjs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/P4PqZKmQjjs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/P4PqZKmQjjs/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/P4PqZKmQjjs/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "mybringback",
+          "playlistId": "PLB03EA9545DD188C3",
+          "position": 7,
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "P4PqZKmQjjs"
+          },
+          "videoOwnerChannelTitle": "mybringback",
+          "videoOwnerChannelId": "UCHALE0WtcSB1E0dt7IaGqWA"
+        }
+      },
+      {
+        "kind": "youtube#playlistItem",
+        "etag": "APLoDjdBHhwjL2Yt-wNvCL7Pck4",
+        "id": "UExCMDNFQTk1NDVERDE4OEMzLjZFRTU1OUJEN0FCRDEwQjM",
+        "snippet": {
+          "publishedAt": "2011-05-25T06:39:24Z",
+          "channelId": "UCHALE0WtcSB1E0dt7IaGqWA",
+          "title": "Learn Android Tutorial 1.9- Adding Sound with MediaPlayer",
+          "description": "In this Android tutorial you will:\n-Add some sound to our Splash Screen in our myMain class\n-Learn about the start, pause, & release methods from the MediaPlayer class\n-Get a better understanding of why we added the onDestroy, onResume, & onPause methods.\n-Understand the differences between setting up a local variable & a variable that can be use by the whole class\n\nNext we will be learning about the how to use the buttons to actually do something, YAY!\n\nThis video is the 9th in a web series that I am creating to help you learn Android programming so you can create apps and eventually how to learn to write games for android phones.  I want to explain things in a way that everyone can understand, even if you have no experience with Java, XML, C, OpenGL, or as a matter of fact, any other programming language.   \n\nIf you do have a lot of experience with programming, these first videos will be really slow for you, but my goal is to get everyone sprinting, but for now we have learn to crawl.\n\nFollow me on twitter @mybringback\n\nGet the source code and more information about this tutorial in the blog post: http://bit.ly/17XsmkP .\n\nVisit Our Friends @ Stone River E-Learning for Additional Tutorials - http://bit.ly/1fjsXTn\n\nCoupon 20% Off HTML & CSS for Beginners - http://bit.ly/1MmuYfw",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/SV4Xom5Vljo/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/SV4Xom5Vljo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/SV4Xom5Vljo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/SV4Xom5Vljo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/SV4Xom5Vljo/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "mybringback",
+          "playlistId": "PLB03EA9545DD188C3",
+          "position": 8,
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "SV4Xom5Vljo"
+          },
+          "videoOwnerChannelTitle": "mybringback",
+          "videoOwnerChannelId": "UCHALE0WtcSB1E0dt7IaGqWA"
+        }
+      },
+      {
+        "kind": "youtube#playlistItem",
+        "etag": "R2RljASgKD2dPAmI7ypaMBryCo0",
+        "id": "UExCMDNFQTk1NDVERDE4OEMzLjdCMUYzMzM5QTRBNDM5MTI",
+        "snippet": {
+          "publishedAt": "2011-05-25T06:39:35Z",
+          "channelId": "UCHALE0WtcSB1E0dt7IaGqWA",
+          "title": "Learn Android Tutorial 1.10- Introduction to the Button",
+          "description": "In this Android tutorial you will:\n-Create a new layout called tutorial1.xml\n-Create a new class called tutorialOne.java\n-Introduction to the defining and using the button to start a new activity\n-Maybe understand a little be more about the Activity cycle?!?!?\n-set up our new Intent in the android manifest\n-Thumbs up this video ;)\n\nThis video is the 10th in a web series that I am creating to help you learn Android programming so you can create apps and eventually how to learn to write games for android phones.  I want to explain things in a way that everyone can understand, even if you have no experience with Java, XML, C, OpenGL, or as a matter of fact, any other programming language.   \n\nIf you do have a lot of experience with programming, these first videos will be really slow for you, but my goal is to get everyone sprinting, but for now we have learn to crawl.\n\nFollow me on twitter @mybringback\n\nGet the source code and learn more at http://bit.ly/17lPpoA .\n\nVisit Our Friends @ Stone River E-Learning for Additional Tutorials - http://bit.ly/1fjsXTn\n\nCoupon 20% Off HTML & CSS for Beginners - http://bit.ly/1MmuYfw",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/AN5EFviJRR0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/AN5EFviJRR0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/AN5EFviJRR0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/AN5EFviJRR0/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/AN5EFviJRR0/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "mybringback",
+          "playlistId": "PLB03EA9545DD188C3",
+          "position": 9,
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "AN5EFviJRR0"
+          },
+          "videoOwnerChannelTitle": "mybringback",
+          "videoOwnerChannelId": "UCHALE0WtcSB1E0dt7IaGqWA"
+        }
+      }
+    ],
+    "pageInfo": {
+      "totalResults": 40,
+      "resultsPerPage": 10
+    }
+  }
