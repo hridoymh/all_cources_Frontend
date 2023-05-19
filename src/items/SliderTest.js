@@ -1,9 +1,10 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import Hero2 from './img/hero-2.png'
 import Hero1 from './img/hero-1.png'
 import Hero3 from './img/hero-3.png'
 import Hero4 from './img/hero-4.png'
 import { Link } from 'react-router-dom'
+import noteContext from '../context/notes/NoteContext'
 
 
 const SliderTest = () => {

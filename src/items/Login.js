@@ -1,7 +1,14 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useContext, useEffect } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
+import noteContext from '../context/notes/NoteContext'
 
 const Login = () => {
+    // const context = useContext(noteContext)
+    // const navigate = useNavigate();
+    // useEffect(()=>{
+    //     if(context.state.login) navigate("/signup");
+    // },[])
+    
   return (
     <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col ">

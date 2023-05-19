@@ -19,36 +19,17 @@ const Mainbody = () => {
     <div className='lg:w-4/5 flex flex-col items-center justify-center'>
       
       <Routes>
-        <Route path='/' element={(
-                                      <>
+        <Route path='/' element={(    <>
                                       <SliderTest/>
                                       <CategoryWin/>
                                       <LandingCourses/>
                                       <WhyChUs/>
                                       <HeroLogin/>
-                                      
-                                      </>
-                                    )}/>
-        <Route path='/login' element={
-          <>
-          <Login/>
-          </>
-        }/>
-        <Route path='/signup' element={
-          <>
-          <Signup/>
-          </>
-        }/>
-        <Route path='/courses' element={
-          <>
-          <Courses/>
-          </>
-        }/>
-        <Route path='/learn' element={
-          <>
-          <Learning/>
-          </>
-        }/>
+                                      </>)}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/signup' element={<Signup/>}/>
+        <Route path='/courses' element={<Courses/>}/>
+        <Route path='/learn' element={<Learning/>}/>
         
         
       </Routes>

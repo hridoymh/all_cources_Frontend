@@ -1,7 +1,10 @@
-import React from 'react'
+import { useContext, useEffect, useState } from 'react'
 import { Link,Outlet } from 'react-router-dom'
+import noteContext from '../context/notes/NoteContext'
 
 const NavBar = () => {
+    const cont = useContext(noteContext);
+    
   return (
     <>
     <div className="navbar bg-base-100">
@@ -44,7 +47,7 @@ const NavBar = () => {
                 </ul>
             </li>
             <li><Link to='/login'>Blog</Link></li>
-            <li><Link to='/login'>Log In</Link></li>
+            <li><Link to='/login'>Login</Link></li>
             </ul>
         </div>
         <div className="navbar-end">
