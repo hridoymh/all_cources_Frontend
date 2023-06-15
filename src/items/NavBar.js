@@ -1,13 +1,61 @@
-import { useContext, useEffect, useState } from 'react'
-import { Link,Outlet } from 'react-router-dom'
-import noteContext from '../context/notes/NoteContext'
+import { useContext, useState } from 'react'
+import { Link,Outlet, useNavigate } from 'react-router-dom'
+import NoteContext from '../context/notes/NoteContext'
 
 const NavBar = () => {
-    const cont = useContext(noteContext);
+    const {state,dispatch} = useContext(NoteContext);
+    const navigate = useNavigate()
+
+    const logout = () => {
+        dispatch({type:"login",payload:false})
+        localStorage.setItem("accessToken","")
+        localStorage.setItem("userEmail","")
+        localStorage.setItem("userName","")
+        localStorage.setItem("userStatus","loggedout")
+        alert("Logged Out")
+        navigate("/")
+    }
     
+    const RenderButton = () => {
+        if(state){
+            return (<button onClick={logout} className="btn">Log out</button>)
+        }else {
+            return (<Link to='/signup' className="btn">get Started</Link>)
+        }
+    }
+    const RenderMenu = () => {
+        if(state) {
+            return (
+                <div className="navbar-center hidden lg:flex">
+                    <ul className="menu menu-horizontal px-1">
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/'>Skills</Link></li>
+                    <li><Link to='/courses'>Courses</Link></li>
+                    
+                    <li><Link to='/login'>Blog</Link></li>
+                    <li><Link to='/login'>Login</Link></li>
+                    </ul>
+                </div>
+            )
+        }
+        else {
+            return (
+                <div className="navbar-center hidden lg:flex">
+                    <ul className="menu menu-horizontal px-1">
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/'>Skills</Link></li>
+                    <li><Link to='/courses'>Courses</Link></li>
+                    
+                    <li><Link to='/login'>Blog</Link></li>
+                    <li><Link to='/login'>Login</Link></li>
+                    </ul>
+                </div>
+            )
+        }
+    }
   return (
     <>
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 shadow">
         <div className="navbar-start">
             <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -32,26 +80,9 @@ const NavBar = () => {
             </div>
             <img className="btn btn-ghost" src='logo.png' alt='logo'/>
         </div>
-        <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
-            <li><Link to='/'>Home</Link></li>
-            <li><Link to='/'>Skills</Link></li>
-            <li tabIndex={0}>
-                <Link to='/courses'>
-                Courses
-                <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
-                </Link>
-                <ul className="p-2 bg-slate-50">
-                <li><Link to='/'>Submenu 1</Link></li>
-                <li><Link to='/'>Submenu 2</Link></li>
-                </ul>
-            </li>
-            <li><Link to='/login'>Blog</Link></li>
-            <li><Link to='/login'>Login</Link></li>
-            </ul>
-        </div>
+        <RenderMenu/>
         <div className="navbar-end">
-            <Link to='/signup' className="btn">Get started</Link>
+            <RenderButton/>
         </div>
     </div>
     <Outlet></Outlet>

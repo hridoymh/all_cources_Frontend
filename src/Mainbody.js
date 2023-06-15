@@ -13,6 +13,8 @@ import {
 import Signup from './items/Signup'
 import Courses from './items/Courses'
 import Learning from './items/Learning'
+import Profile from './items/profile/Profile'
+import AddCourses from './items/AddCourses'
 
 const Mainbody = () => {
   return (
@@ -29,7 +31,9 @@ const Mainbody = () => {
         <Route path='/login' element={<Login/>}/>
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/courses' element={<Courses/>}/>
-        <Route path='/learn' element={<Learning/>}/>
+        <Route path='/learn/:id' element={<Learning/>}/>
+        <Route path='/profile' element={<Profile/>}/>
+        <Route path='/addCourses' element={<AddCourses/>}/>
         
         
       </Routes>
