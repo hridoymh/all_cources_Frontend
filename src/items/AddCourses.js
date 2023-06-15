@@ -1,8 +1,19 @@
 import React,{useState} from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import axios from 'axios'
+import backend from './config'
 
 const AddCourses = () => {
-    const [pstate,setPstate] = useState("");
+    const [title,setTitle] = useState("")
+    const [desc,setdesc] = useState("")
+    const [url,seturl] = useState("")
+    const navigate = useNavigate()
+    const handleSubmit = async () => {
+        
+        let res = await axios.post(backend+"/addcourse",{title:title,description:desc,url:url},{headers:{'Authorization': `Bearer ${localStorage.getItem("accessToken")}` }})
+        alert(res.data.status)
+        navigate("/")
+    }
     return (
       <div className="hero min-h-screen bg-base-200">
           <div className="hero-content flex-col ">
@@ -15,25 +26,25 @@ const AddCourses = () => {
                   <label className="label">
                       <span className="label-text">Course Title</span>
                   </label>
-                  <input type="text" placeholder="Course Title" className="input input-bordered" />
+                  <input type="text" placeholder="Course Title" onChange={(e)=>setTitle(e.target.value)} className="input input-bordered" />
                   </div>
                   <div className="form-control">
                   <label className="label">
                       <span className="label-text">Course Description</span>
                   </label>
-                  <input type="text" placeholder="Course Description" className="input input-bordered" />
+                  <input type="text" placeholder="Course Description" onChange={(e)=>setdesc(e.target.value)} className="input input-bordered" />
                   </div>
                   
                   <div className="form-control">
                   <label className="label">
                       <span className="label-text">Course Url</span>
                   </label>
-                  <input type="text" placeholder="Course Url" className="input input-bordered" />
+                  <input type="text" placeholder="Course Url" onChange={(e)=>seturl(e.target.value)} className="input input-bordered" />
                   </div>
                   
                   
                   <div className="form-control mt-6">
-                  <button className="btn btn-primary">Submit</button>
+                  <button className="btn btn-primary" onClick={handleSubmit}>Submit</button>
                   </div>
                   
               </div>

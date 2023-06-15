@@ -6,6 +6,7 @@ import Mainbody from './Mainbody';
 import { useReducer } from 'react';
 import reducer from './reducers/reducer';
 
+
 function App() {
   const [state,dispatch] = useReducer(reducer,false)
   return (

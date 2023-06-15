@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react'
+import { useContext, useState, useEffect } from 'react'
 import { Link,Outlet, useNavigate } from 'react-router-dom'
 import NoteContext from '../context/notes/NoteContext'
 
@@ -15,6 +15,12 @@ const NavBar = () => {
         alert("Logged Out")
         navigate("/")
     }
+
+    useEffect(()=>{
+        if(localStorage.getItem("userStatus")==="loggedin"){
+            navigate("/")
+        }
+    },[])
     
     const RenderButton = () => {
         if(state){
@@ -31,9 +37,10 @@ const NavBar = () => {
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/'>Skills</Link></li>
                     <li><Link to='/courses'>Courses</Link></li>
-                    
-                    <li><Link to='/login'>Blog</Link></li>
-                    <li><Link to='/login'>Login</Link></li>
+                    <li><Link to='/blog'>Blog</Link></li>
+                    <li><Link to='/addCourses'>Add Course</Link></li>
+                    <li><Link to='/profile'>Profile</Link></li>
+
                     </ul>
                 </div>
             )
@@ -45,8 +52,7 @@ const NavBar = () => {
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/'>Skills</Link></li>
                     <li><Link to='/courses'>Courses</Link></li>
-                    
-                    <li><Link to='/login'>Blog</Link></li>
+                    <li><Link to='/blog'>Blog</Link></li>
                     <li><Link to='/login'>Login</Link></li>
                     </ul>
                 </div>

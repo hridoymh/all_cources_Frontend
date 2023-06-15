@@ -6,7 +6,7 @@ const Learning = () => {
   const listItems = testData.items.map((x) => {
     
     return <div className="item flex w-full h-20 spa">
-      <div className="image w-1/4"><img src={x.snippet.thumbnails.default.url} alt="" srcset="" /></div>
+      <div className="image w-1/4"><img src={x.snippet.thumbnails.default.url}/></div>
       <div className="titles w-3/4">
         <div className='font-bold text-sm'>{x.snippet.title.substring(0,70)+"..."}</div>
       </div>
