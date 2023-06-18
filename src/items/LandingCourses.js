@@ -11,6 +11,8 @@ import { useLoaderData } from 'react-router-dom'
 
 
 const LandingCourses = () => {
+    const data = useLoaderData()
+    
     
   return (
     <div className='flex flex-col items-center justify-center'>
@@ -29,12 +31,13 @@ const LandingCourses = () => {
             </Hero.Content>
         </Hero>
         <div className='grid grid-cols-3 gap-12'>
-            <CourseCard img={lang1}/>
+            {/* <CourseCard img={lang1}/>
             <CourseCard img={lang3}/>
             <CourseCard img={lang2}/>
             <CourseCard img={lang2}/>
             <CourseCard img={lang1}/>
-            <CourseCard img={lang3}/>
+            <CourseCard img={lang3}/> */}
+            {data.map(item=><CourseCard img={item.thumb} title={item.title} desc={item.description.substring(0,100)} id={item._id} price={item.price}/>)}
             
         </div>
     </div>

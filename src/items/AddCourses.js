@@ -7,10 +7,12 @@ const AddCourses = () => {
     const [title,setTitle] = useState("")
     const [desc,setdesc] = useState("")
     const [url,seturl] = useState("")
+    const [price,setprice] = useState("")
+    const [cat,setCat] = useState("")
     const navigate = useNavigate()
     const handleSubmit = async () => {
         
-        let res = await axios.post(backend+"/addcourse",{title:title,description:desc,url:url},{headers:{'Authorization': `Bearer ${localStorage.getItem("accessToken")}` }})
+        let res = await axios.post(backend+"/addcourse",{title:title,description:desc,url:url,price:price,cat:cat},{headers:{'Authorization': `Bearer ${localStorage.getItem("accessToken")}` }})
         alert(res.data.status)
         navigate("/")
     }
@@ -26,21 +28,40 @@ const AddCourses = () => {
                   <label className="label">
                       <span className="label-text">Course Title</span>
                   </label>
-                  <input type="text" placeholder="Course Title" onChange={(e)=>setTitle(e.target.value)} className="input input-bordered" />
-                  </div>
+                  <input type="text" placeholder="Course Title" onChange={(e)=>setTitle(e.target.value)} className="input input-bordered" value={title} />
+                </div>
                   <div className="form-control">
                   <label className="label">
                       <span className="label-text">Course Description</span>
                   </label>
-                  <input type="text" placeholder="Course Description" onChange={(e)=>setdesc(e.target.value)} className="input input-bordered" />
+                  <textarea type="text" placeholder="Course Description" onChange={(e)=>setdesc(e.target.value)} className="input input-bordered h-44 " value={desc} ></textarea>
                   </div>
                   
                   <div className="form-control">
                   <label className="label">
                       <span className="label-text">Course Url</span>
                   </label>
-                  <input type="text" placeholder="Course Url" onChange={(e)=>seturl(e.target.value)} className="input input-bordered" />
+                  <input type="text" placeholder="Course Url" onChange={(e)=>seturl(e.target.value)} className="input input-bordered" value={url} />
                   </div>
+                  <div className="form-control">
+                  <label className="label">
+                      <span className="label-text">Course Price</span>
+                  </label>
+                  <input type="text" placeholder="Course Price" onChange={(e)=>setprice(e.target.value)} className="input input-bordered" value={price} />
+                  </div>
+                  <div className="form-control">
+                  <label className="label">
+                      <span className="label-text">Course Price</span>
+                  </label>
+                  <select onChange={e=>setCat(e.target.value)} className="input input-bordered" >
+                    <option value="Web Development">Web Development</option>
+                    <option value="Personal Development">Personal Development</option>
+                    <option value="Software Development">Software Development</option>
+                    <option value="Programming">Programming</option>
+                  </select>
+                  </div>
+                  
+                  
                   
                   
                   <div className="form-control mt-6">

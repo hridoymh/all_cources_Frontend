@@ -91,7 +91,6 @@ const NavBar = () => {
             <RenderButton/>
         </div>
     </div>
-    <Outlet></Outlet>
     </>
   )
 }

@@ -5,8 +5,10 @@ import CourseCard from './CourseCard'
 import lang1 from './img/language-01.jpg'
 import lang2 from './img/language-02.jpg'
 import lang3 from './img/language-03.jpg'
+import { useLoaderData } from 'react-router-dom'
 
 const Courses = () => {
+    const data = useLoaderData()
   return (
     <div className='flex flex-col items-center justify-center'>
         <Badge className='px-4 py-3 font-semibold text-gray-400 bg-cyan-100 border-none'>OUR COURSES</Badge>
@@ -39,18 +41,7 @@ const Courses = () => {
         </form>
 
         <div className='grid grid-cols-3 gap-12 mt-8'>
-        <CourseCard img={lang1}/>
-            <CourseCard img={lang3}/>
-            <CourseCard img={lang2}/>
-            <CourseCard img={lang2}/>
-            <CourseCard img={lang1}/>
-            <CourseCard img={lang3}/>
-            <CourseCard img={lang1}/>
-            <CourseCard img={lang3}/>
-            <CourseCard img={lang2}/>
-            <CourseCard img={lang2}/>
-            <CourseCard img={lang1}/>
-            <CourseCard img={lang3}/>
+        {data.map(item=><CourseCard img={item.thumb} title={item.title} desc={item.description.substring(0,100)} id={item._id} price={item.price}/>)}
             
         </div>
     </div>

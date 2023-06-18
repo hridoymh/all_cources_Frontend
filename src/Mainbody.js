@@ -8,7 +8,8 @@ import SliderTest from './items/SliderTest'
 import WhyChUs from './items/WhyChUs'
 import {
   Routes,
-  Route
+  Route,
+  Outlet
 } from 'react-router-dom'
 import Signup from './items/Signup'
 import Courses from './items/Courses'
@@ -29,9 +30,9 @@ const Mainbody = () => {
   },[])
 
   return (
-    <div className='lg:w-4/5 flex flex-col items-center justify-center'>
+    <div className='all lg:w-4/5 flex flex-col items-center justify-center'>
       
-      <Routes>
+      {/* <Routes>
         <Route path='/' element={<Home/>}/>
         
         <Route path='/login' element={<Login/>}/>
@@ -42,7 +43,8 @@ const Mainbody = () => {
         <Route path='/addCourses' element={<AddCourses/>}/>
         
         
-      </Routes>
+      </Routes> */}
+      <Outlet/>
       <Footer/>
     </div>
   )

@@ -3,15 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter as Router } from 'react-router-dom';
+import {BrowserRouter as Router, RouterProvider } from 'react-router-dom';
+import router from './routers';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
+    {/* <Router>
     <App />
-    </Router>
+    </Router> */}
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
