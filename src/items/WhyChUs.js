@@ -10,7 +10,7 @@ const WhyChUs = () => {
                 <Hero.Overlay className="bg-opacity-0" />
                 <Hero.Content className="text-center">
                     <div className="max-w-md">
-                    <h1 className="text-5xl font-bold">Why Choose Ain1</h1>
+                    <h1 className="text-5xl font-bold">Why Choose OCMS</h1>
                     <p className="py-6 text-gray-400">
                         Stats
                     </p>

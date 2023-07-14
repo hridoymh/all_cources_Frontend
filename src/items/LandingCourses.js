@@ -23,9 +23,7 @@ const LandingCourses = () => {
                 <div className="max-w-md">
                 <h1 className="text-5xl font-bold">Courses</h1>
                 <p className="py-6 text-gray-400">
-                    Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-                    excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-                    a id nisi.
+                Our courses offer exceptional quality content curated by expert instructors, ensuring an unparalleled learning experience for every user.
                 </p>
                 </div>
             </Hero.Content>

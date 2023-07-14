@@ -15,7 +15,7 @@ const Slider = () => {
         
         <div className='text-5xl font-bold'>Every Free Resources in One Place</div>
         <div className="flex space-x-4">
-            <button className="btn btn-active">Sign Up</button>
+            <button className="btn btn-active">Book Live Session</button>
             <button className="btn btn-outline btn-primary">Find Courses</button>
         </div>
     </div>

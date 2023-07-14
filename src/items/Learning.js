@@ -7,12 +7,16 @@ const Learning = () => {
 
   const {data,user} = useLoaderData()
   const [video,setVideo] = useState("")
-  const vClick = (x) => {
+  const [title,setTitle] = useState("")
+  const [desc,setDesc] = useState("")
+  const vClick = (x,y) => {
     setVideo(x)
+	setTitle(y.title)
+	setDesc(y.description)
   }
   const listItems = data.items.map((x) => {
     
-    return <div className="item flex w-full h-20 spa" onClick={()=>vClick(x.snippet.resourceId.videoId)}>
+    return <div className="item flex w-full h-20 spa" onClick={()=>vClick(x.snippet.resourceId.videoId,x.snippet)}>
       <div className="image w-1/4"><img src={x.snippet.thumbnails.default.url}/></div>
       <div className="titles w-3/4">
         <div className='font-bold text-sm'>{x.snippet.title.substring(0,70)+"..."}</div>
@@ -26,7 +30,8 @@ const Learning = () => {
                 <div className="video">
                 <iframe className='w-full h-96'  src={`https://www.youtube.com/embed/${video}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-                <div className="title font-bold text-xl my-2">১০ মিনিটে React - A top level overview</div>
+                <div className="title font-bold text-xl my-2">{title}</div>
+				<p>{desc}</p>
             </div>
             <div className='w-1/3 border p-2'>
                 <div className='py-4 bg-gray-200 mb-2 px-2'>
