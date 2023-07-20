@@ -44,6 +44,21 @@ const router = createBrowserRouter([
                 }
             },
             {
+                path:'cat/:cat',
+                element:<Courses/>,
+                loader:async ({params})=>{
+                    const res = await axios.get(backend+"/getcourses")
+                    const data = res.data.filter(i=>{
+                        if(i.cat===params.cat){
+                            return i
+                        }
+                    })
+                    console.log(data)
+                    return data
+                }
+            },
+            
+            {
                 path:'/learn/:id',
                 element:<Learning/>,
                 loader: async ({params})=>{

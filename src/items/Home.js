@@ -6,6 +6,7 @@ import LandingCourses from './LandingCourses'
 import axios from 'axios'
 import backend from './config'
 import { useLoaderData } from 'react-router-dom'
+import HeroLogin from './HeroLogin'
 
 
 const Home = () => {
@@ -16,7 +17,7 @@ const Home = () => {
     <CategoryWin/>
     <LandingCourses/>
     <WhyChUs/>
-    {/* <HeroLogin/> */}
+    <HeroLogin/>
     </>
   )
 }

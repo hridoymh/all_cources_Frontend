@@ -8,7 +8,7 @@ const AddCourses = () => {
     const [desc,setdesc] = useState("")
     const [url,seturl] = useState("")
     const [price,setprice] = useState("")
-    const [cat,setCat] = useState("")
+    const [cat,setCat] = useState("web")
     const navigate = useNavigate()
     const handleSubmit = async () => {
         
@@ -53,11 +53,11 @@ const AddCourses = () => {
                   <label className="label">
                       <span className="label-text">Course Price</span>
                   </label>
-                  <select onChange={e=>setCat(e.target.value)} className="input input-bordered" >
-                    <option value="Web Development">Web Development</option>
-                    <option value="Personal Development">Personal Development</option>
-                    <option value="Software Development">Software Development</option>
-                    <option value="Programming">Programming</option>
+                  <select onChange={e=>setCat(e.target.value)} value={cat} className="input input-bordered" >
+                    <option value="web">Web Development</option>
+                    <option value="personal">Personal Development</option>
+                    <option value="software">Software Development</option>
+                    <option value="programming">Programming</option>
                   </select>
                   </div>
                   

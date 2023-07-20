@@ -35,9 +35,8 @@ const NavBar = () => {
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                     <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/'>Skills</Link></li>
+                    <li><Link to='/courses'>Skills</Link></li>
                     <li><Link to='/courses'>Courses</Link></li>
-                    <li><Link to='/blog'>Blog</Link></li>
                     <li><Link to='/addCourses'>Add Course</Link></li>
                     <li><Link to='/profile'>Profile</Link></li>
 
@@ -50,9 +49,8 @@ const NavBar = () => {
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                     <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/'>Skills</Link></li>
+                    <li><Link to='/courses'>Skills</Link></li>
                     <li><Link to='/courses'>Courses</Link></li>
-                    <li><Link to='/blog'>Blog</Link></li>
                     <li><Link to='/login'>Login</Link></li>
                     </ul>
                 </div>
@@ -80,7 +78,6 @@ const NavBar = () => {
                     <li><Link to='/'>Submenu 2</Link></li>
                 </ul>
                 </li>
-                <li><Link to='/'>Blog</Link></li>
                 <li><Link to='/'>Log In</Link></li>
             </ul>
             </div>
